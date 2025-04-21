@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Add Transaction"
+        android:textColor="#1cb9ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_transaction_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/rb_income"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Income"
+            android:textColor="@color/black"
+            android:buttonTint="@color/mainblue"/>
+
+        <RadioButton
+            android:id="@+id/rb_expense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Expense"
+            android:textColor="@color/black"
+            android:buttonTint="@color/mainblue"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_transaction_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#B0B0B0"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:textColorHint="#B0B0B0" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#B0B0B0"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="#B0B0B0" />
+
+    <EditText
+        android:id="@+id/et_category"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#B0B0B0"
+        android:hint="Category"
+        android:textColor="@color/black"
+        android:textColorHint="#B0B0B0" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#B0B0B0"
+        android:hint="Description (optional)"
+        android:textColor="@color/black"
+        android:textColorHint="#B0B0B0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/expense_red"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Save"
+            android:textColor="#121212"
+            android:backgroundTint="#00E676"/>
+    </LinearLayout>
+</LinearLayout>
