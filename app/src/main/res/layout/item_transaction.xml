@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Shopping"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
 
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Cloths"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 android:alpha="0.7"/>
 
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Apr 10, 2025"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
                 android:alpha="0.5"/>
         </LinearLayout>
@@ -89,7 +89,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="Edit transaction"
                     android:padding="8dp"
-                    android:tint="@color/mainblue"/>
+                    app:tint="@color/mainblue" />
 
                 <ImageButton
                     android:id="@+id/btn_delete_transaction"
@@ -99,7 +99,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="Delete transaction"
                     android:padding="8dp"
-                    android:tint="@color/expense_red"/>
+                    app:tint="@color/expense_red" />
             </LinearLayout>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

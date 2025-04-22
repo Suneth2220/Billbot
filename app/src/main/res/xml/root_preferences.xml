@@ -14,7 +14,7 @@
             android:entries="@array/currency_names"
             android:entryValues="@array/currency_values"
             app:iconSpaceReserved="false" />
-            
+
         <SwitchPreferenceCompat
             android:key="theme_mode"
             android:title="Dark Mode"

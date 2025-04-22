@@ -13,7 +13,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Add Transaction"
-        android:textColor="#1cb9ff"
+        android:textColor="@color/mainblue"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Income"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:buttonTint="@color/mainblue"/>
 
         <RadioButton
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Expense"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:buttonTint="@color/mainblue"/>
     </RadioGroup>
 
@@ -50,7 +50,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#B0B0B0"
         android:hint="Title"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorHint="#B0B0B0" />
 
     <EditText
@@ -61,7 +61,7 @@
         android:backgroundTint="#B0B0B0"
         android:hint="Amount"
         android:inputType="numberDecimal"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorHint="#B0B0B0" />
 
     <EditText
@@ -71,7 +71,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#B0B0B0"
         android:hint="Category"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorHint="#B0B0B0" />
 
     <EditText
@@ -81,7 +81,7 @@
         android:layout_marginBottom="16dp"
         android:backgroundTint="#B0B0B0"
         android:hint="Description (optional)"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textColorHint="#B0B0B0" />
 
     <LinearLayout

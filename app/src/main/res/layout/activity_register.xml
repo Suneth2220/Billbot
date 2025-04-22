@@ -5,7 +5,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/background"
     android:padding="24dp">
 
     <ImageView
@@ -62,7 +62,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/gradient_background"
+            android:background="@color/blue_box"
             android:orientation="vertical"
             android:padding="16dp">
 
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:hint="Username"
-                android:textColorHint="#B0B0B0"
+                android:textColorHint="@color/gray_neutral"
                 app:boxStrokeColor="@color/mainblue"
                 app:hintTextColor="@color/mainblue">
 
@@ -84,7 +84,7 @@
                     android:backgroundTint="#1E1E1E"
                     android:inputType="text"
                     android:outlineProvider="paddedBounds"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textColorHighlight="@color/mainblue" />
             </com.google.android.material.textfield.TextInputLayout>
 

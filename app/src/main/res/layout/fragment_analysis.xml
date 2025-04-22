@@ -5,12 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FA">
+    android:background="@color/background">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F5F7FA"
+        android:background="@color/background"
         android:padding="16dp">
 
         <!-- Title Section -->
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Analysis"
-            android:textColor="#3B82F6"
+            android:textColor="@color/mainblue"
             android:textSize="26sp"
             android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:alpha="0.7"
             android:text="April 2025"
-            android:textColor="#6B7280"
+            android:textColor="@color/gray_neutral"
             android:textSize="16sp"
             android:fontFamily="sans-serif"
             app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
             android:id="@+id/spinner_month"
             android:layout_width="119dp"
             android:layout_height="48dp"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/white"
             app:layout_constraintBottom_toBottomOf="@id/tv_month_subtitle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/tv_month_subtitle" />
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Spending Breakdown"
-            android:textColor="#111827"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
@@ -255,7 +255,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Weekly Comparison"
-            android:textColor="#111827"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
@@ -287,7 +287,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Smart Insights"
-            android:textColor="#111827"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
@@ -375,7 +375,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Categories Breakdown"
-            android:textColor="#111827"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:fontFamily="sans-serif-medium"
             android:textStyle="bold"

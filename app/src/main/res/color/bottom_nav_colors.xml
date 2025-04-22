@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="#2196F3" android:state_checked="true"/>
-    <item android:color="#FFFFFF" android:state_checked="false"/>
+    <!-- Selected/Active Tab - Blue -->
+    <item android:color="#2196F3" android:state_checked="true" android:state_selected="true"/>
+
+    <!-- Pressed State - Darker Blue -->
+    <item android:color="#1976D2" android:state_pressed="true"/>
+
+    <!-- Focused State (for accessibility) - Semi-Transparent Blue -->
+    <item android:color="#802196F3" android:state_focused="true" android:state_checked="false"/>
+
+    <!-- Inactive Tab - White -->
+    <item android:color="#FFFFFF"/>
 </selector>

@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/white">
+        android:background="@color/black">
 
         <!-- Profile Section -->
         <androidx.cardview.widget.CardView
@@ -23,15 +23,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
+                android:background="@drawable/gradient_background"
                 android:orientation="horizontal"
                 android:padding="16dp">
 
                 <!-- Profile Picture Placeholder -->
                 <ImageView
                     android:id="@+id/profile_image"
-                    android:layout_width="87dp"
-                    android:layout_height="106dp"
+                    android:layout_width="95dp"
+                    android:layout_height="112dp"
                     android:background="@drawable/userimg"
                     android:contentDescription="Profile Picture"
                     android:padding="12dp" />
@@ -48,17 +48,17 @@
                         android:id="@+id/profile_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        tools:text="User Name" />
+                        tools:text="Username" />
 
                     <TextView
                         android:id="@+id/profile_email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:textColor="@color/gray_light"
+                        android:textColor="@color/gray_neutral"
                         android:textSize="14sp"
                         tools:text="email@example.com" />
 
@@ -69,7 +69,7 @@
                         android:layout_marginTop="8dp"
                         android:text="Edit Profile"
                         android:textColor="@color/mainblue"
-                        android:backgroundTint="@color/white"
+                        android:backgroundTint="@color/blue_box"
                         style="@style/Widget.MaterialComponents.Button.TextButton" />
                 </LinearLayout>
             </LinearLayout>
@@ -79,20 +79,22 @@
         <FrameLayout
             android:id="@+id/settings_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#121212" />
 
         <!-- About Section -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="#1E1E1E"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/gradient_background"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -100,7 +102,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="About"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -109,21 +111,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Billbot v1.0.0"
-                    android:textColor="@color/gray_light" />
+                    android:textColor="@color/gray_neutral" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Mahinda Rajapaksha"
-                    android:textColor="@color/gray_light" />
+                    android:text="00126 12345 12423"
+                    android:textColor="@color/gray_neutral" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="00001"
-                    android:textColor="@color/gray_light" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>

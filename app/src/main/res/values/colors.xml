@@ -2,17 +2,20 @@
 <resources>
 
     <color name="mainblue">#1cb9ff</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#0D1B2A</color>
+
 
     <!-- Colors for transaction amounts -->
 
     <color name="income_green">#00fa9a</color>
     <color name="expense_red">#ff0000</color>
-    <color name="gray_neutral">#9E9E9E</color>
+    <color name="gray_neutral">#C0C0C0</color>
     <color name="gray_light">#B0B0B0</color>
     <color name="blue_box">#e5f3ff</color>
-    <color name="inactive">#757575</color>         <!-- Medium gray for inactive state -->
+    <color name="inactive">#757575</color>
+    <color name="navigationbar_color">#1976D2</color>
 
 
 </resources>
